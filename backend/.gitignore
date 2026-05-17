@@ -1,0 +1,25 @@
+# Ambiente virtual Python
+backend/venv/
+
+# Cache Python
+__pycache__/
+*.pyc
+
+# Variáveis ambiente
+.env
+
+# Logs
+*.log
+
+# Node modules
+frontend/node_modules/
+
+# Build React
+frontend/dist/
+
+# VSCode
+.vscode/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
