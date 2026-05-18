@@ -87,3 +87,71 @@ shadowtrap/
 ├── frontend/
 │
 └── README.md
+
+🖥️ Como Executar o Projeto
+📥 1. Clonar o repositório
+git clone https://github.com/SEU-USUARIO/shadowtrap.git
+📂 2. Acessar o projeto
+cd shadowtrap/backend
+🐍 3. Criar ambiente virtual
+python -m venv venv
+⚡ 4. Ativar ambiente virtual
+Windows (PowerShell)
+.\venv\Scripts\Activate
+
+Quando ativado, aparecerá:
+
+(venv)
+
+📦 5. Instalar dependências
+pip install -r requirements.txt
+
+🚀 6. Rodar a aplicação
+uvicorn app.main:app --reload
+
+🌐 Acessos do Sistema
+
+API Principal
+http://127.0.0.1:8000
+
+Documentação Swagger
+http://127.0.0.1:8000/docs
+
+⚠️ Aviso Legal
+
+Este projeto possui finalidade exclusivamente educacional e de pesquisa em cibersegurança.
+
+O ShadowTrap NÃO deve ser utilizado para atividades ilegais, invasões ou qualquer ação não autorizada em ambientes reais.
+
+🧭 Roadmap
+ Estrutura inicial do projeto
+ API FastAPI
+ Servidor TCP Honeypot
+ Honeypot SSH real
+ Captura de credenciais
+ Sistema de logs
+ Banco de dados completo
+ Dashboard web
+ Monitoramento em tempo real
+ GeoIP tracking
+ Dockerização
+ Deploy em VPS Linux
+
+👨‍💻 Autor
+
+Jean Carlos Soto Barbosa
+
+👨‍💻 Desenvolvedor
+Desenvolvido por Jean Carlos Soto Barbosa.
+
+Focado em:
+
+Engenharia de Software
+Backend Development
+APIs REST
+Inteligência Artificial
+Sistemas Financeiros
+Análise Quantitativa
+
+🔥 ShadowTrap Status
+ACTIVE • MONITORING • READY FOR ATTACK DATA COLLECTION
