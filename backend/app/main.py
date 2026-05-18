@@ -18,7 +18,7 @@ honeypot_thread = threading.Thread(
     target=start_ssh_honeypot,
     daemon=True
 )
-honeypot_thread.start()
+honeypot_thread.start() 
 
 # Rota principal da aplicação 
 @app.get("/")
