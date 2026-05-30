@@ -3,6 +3,8 @@ import threading
 
 from fastapi import FastAPI
 
+from app.api.routes.attacks import router as attacks_router
+from app.api.websocket.attacks import router as attacks_ws_router
 from app.core.config import settings
 from app.honeypot.ssh_server import start_ssh_honeypot
 
@@ -29,6 +31,9 @@ app = FastAPI(
     version="1.0.0",
     lifespan=lifespan,
 )
+
+app.include_router(attacks_router)
+app.include_router(attacks_ws_router)
 
 
 @app.get("/")
